@@ -46,3 +46,78 @@ body {
     height: 30px;
     border-radius: 3px;
 }
+
+/* main content */
+
+.content {
+    width: 960px;
+    margin: auto;
+    padding: 15px;
+}
+
+.content > h3 {
+    text-align: center;
+}
+
+
+/* music results */
+.music-results {
+    padding: 10px;       
+}
+
+.music-results > .songs {
+    list-style: none;
+    padding: 0;
+}
+
+.music-results > .songs .song {
+    padding: 5px;
+    margin-bottom: 8px;
+    box-shadow: 2px 2px 4px #000;
+    position: relative;
+}
+
+.music-results > .songs .song p {
+    display: inline-block;
+    margin-right: 15px;
+    text-shadow: 2px 2px 4px #333;
+}
+
+.music-results > .songs .song button.listen {
+    display: inline-block;
+    padding: 6px 8px;
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    box-shadow: 2px 3px 1px #333;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
+
+
+.music-results > .songs .song button.listen:hover {
+    box-shadow: 2px 3px 4px #000;
+    cursor: pointer;
+}
+
+.music-results > .songs .song button.listen:focus {
+    outline: none;
+}
+
+
+
+
+/* footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #00cec9;
+    text-align: center;
+}
+
+/* Misc */
