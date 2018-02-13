@@ -84,7 +84,7 @@ body {
     text-shadow: 2px 2px 4px #333;
 }
 
-.music-results > .songs .song button.listen {
+.music-results > .songs .song button.btn {
     display: inline-block;
     padding: 6px 8px;
     background-color: transparent;
@@ -97,14 +97,20 @@ body {
     top: 13px;
 }
 
+.music-results > .songs .song button.pause {
+    display: none;
+}
 
+.music-results > .songs .song button.hide {
+    display: none;
+}
 
-.music-results > .songs .song button.listen:hover {
+.music-results > .songs .song button.btn:hover {
     box-shadow: 2px 3px 4px #000;
     cursor: pointer;
 }
 
-.music-results > .songs .song button.listen:focus {
+.music-results > .songs .song button.btn:focus {
     outline: none;
 }
 
